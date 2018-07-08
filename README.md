@@ -1,4 +1,7 @@
-![alt text](src/assets/screenshot.jpg)
+[![alt text](src/assets/screenshot.jpg)](https://github.com/claflamme/toa-guide-printouts/blob/master/guides.pdf)
+
+[View 👀](https://github.com/claflamme/toa-guide-printouts/blob/master/guides.pdf) or
+[Download ⬇️](https://github.com/claflamme/toa-guide-printouts/raw/master/guides.pdf)
 
 # Tomb of Annihilation Guide Printouts
 
