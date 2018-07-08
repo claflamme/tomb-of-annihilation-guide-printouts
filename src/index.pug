@@ -1,0 +1,60 @@
+mixin renderFeature(name, description)
+  .stat-block-blurb
+    - const label = `<strong><em class="stat-block-label">${ name }</em></strong>`
+    != marked(label + description)
+
+each guide in guides.guidesList
+  .page
+    .stat-block.pull-left
+      each character in guide.characters
+        h1.stat-block-title.text-color-red= character.name
+        div.stat-block-meta
+          em= character.meta
+        hr.stat-block-divider
+        .stat-block-line
+          strong.stat-block-label Armor Class
+          = character.armorClass
+        .stat-block-line
+          strong.stat-block-label Hit Points
+          = character.hitPoints
+        .stat-block-line
+          strong.stat-block-label Speed
+          = character.speed
+        hr.stat-block-divider
+        table.stat-block-stat-table.text-color-red
+          tbody
+            tr
+              each statVal, statLabel in character.stats
+                td.stat-block-stat
+                  div
+                    strong= statLabel
+                  div
+                    - const modifier = Math.floor((statVal - 10) / 2)
+                    - const modifierPrefix = modifier >=0 ? '+' : ''
+                    = `${ statVal } (${ modifierPrefix }${ modifier })`
+        hr.stat-block-divider
+        each tidbit in character.tidbits
+          .stat-block-line.text-color-red
+            strong.stat-block-label= tidbit.name
+            = tidbit.text
+        hr.stat-block-divider
+        each feature in character.features
+          +renderFeature(feature.name, feature.description)
+        h2.stat-block-subheading Actions
+        each action in character.actions
+          +renderFeature(action.name, action.description)
+        if character.reactions
+          h2.stat-block-subheading Reactions
+          each reaction in character.reactions
+            +renderFeature(reaction.name, reaction.description)
+    .bio-block.pull-right
+      .bio-image-container
+        - const imgpath = `file://${ process.cwd() }/src/assets/${ guide.image }`
+        img.bio-image(src=imgpath)
+      .bio-short
+        .bio-summary= guide.summary || ''
+        .bio-location= guide.location || ''
+      .bio-blurb!= marked(guide.description || '')
+        
+style
+  include:stylus styles/index.styl

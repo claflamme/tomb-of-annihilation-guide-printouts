@@ -1,0 +1,126 @@
+$page-width = 8.5in
+$page-height = 11in
+$page-margin = .5in
+
+colors = {
+  red: #822000
+}
+
+@page
+  size $page-width $page-height
+  -webkit-print-color-adjust: exact
+
+html
+  height $page-height * 0.9999
+  width $page-width
+  margin 0
+  padding 0
+  font-size 9pt
+
+body
+  position: relative
+  height "calc(100% - %s)" % ($page-margin * 2)
+  margin 0
+  font-family 'Alegreya Sans', sans-serif
+
+// --- General stuff -----------------------------------------------------------
+
+for i in (1..6)
+  h{ i }, .heading-{ i }
+    font-family 'Alegreya SC', sans-serif
+    font-weight 400
+    margin 0 0 .2em
+    letter-spacing: -0.02em
+
+for key, value in colors
+  .text-color-{ key }
+    color value
+
+.pull-left
+  float: left
+
+.pull-right
+  float: right
+
+.page
+  break-after: page
+  padding $page-margin
+
+// --- Stat blocks -------------------------------------------------------------
+
+.stat-block
+  width: calc(55% - .3in)
+  height: "calc(100% - %s)" % .3in
+  padding: .15in
+  border: .01in solid #ccc
+
+.stat-block-title
+  margin-bottom 0
+  line-height 1
+
+.stat-block-meta
+  margin-bottom .75em
+
+.stat-block-divider
+  border .01in solid colors["red"]
+
+.stat-block-line
+  color: colors.red
+  margin: 0.3em 0
+
+.stat-block-stat-table
+  width 100%
+  text-align center
+  text-transform uppercase
+  font-size 1rem
+
+.stat-block-stat
+  width (100 / 6)%
+
+.stat-block-label
+  &:after
+    content: ' '
+
+.stat-block-blurb
+  p:first-of-type
+    margin-top: 0
+
+.stat-block-subheading
+  border-bottom: 1px solid colors.red
+  color: colors.red
+
+// --- Character bios ----------------------------------------------------------
+
+.bio-block
+  width: 40%
+  font-family: 'Alegreya', serif
+  font-style: italic
+  font-size: 10pt
+
+  strong
+    font-style: normal
+
+  strong > em, em > strong
+    font-style: italic
+
+  p
+    line-height: 1.4
+
+.bio-image-container
+  padding-bottom: .25in
+
+.bio-image
+  display: block;
+  width: 100%
+  height: auto
+  margin: auto
+
+.bio-short
+  text-align: center
+
+.bio-summary
+  font-weight 700
+  font-size 12pt
+
+.bio-location
+  font-size 12pt

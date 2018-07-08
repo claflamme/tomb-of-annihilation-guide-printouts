@@ -1,0 +1,525 @@
+guidesList:
+  -
+    summary: Weretiger
+    location: Port Nyanzaru
+    image: "guides/azaka-stormfang.jpg"
+    description: |
+      Azaka (NG female Chultan human **weretiger**) works out of Port Nyanzaru. She conceals her lycanthropy from the characters for as long as possible and will guide adventurers for free if they agree to help her retrieve an item that was stolen by the pterafolk of Firefinger. If questioned about the stolen item, Azaka responds only that it’s a family heirloom: a wooden mask carved to resemble a tiger’s face. It is actually a _**mask of the beast**_ (see appendix C).
+
+      Azaka has wandered far and wide through the jungle in tiger form. She is acquainted with Saja N’baza, the powerful and wise guardian naga of Orolunga, and gladly leads characters to the naga if they’re looking for guidance.
+
+      Azaka stands 6 feet tall and weighs about 150 pounds. She will not willingly spread her lycanthropic curse. She is also afraid of heights and will not willingly put herself in a situation in which she’s in danger of falling more than 60 feet. Azaka’s damage immunities do not protect her against damage from falling.
+    characters:
+      - name: Azaka Stormfang
+        meta: Medium humanoid, neutral good
+        armorClass: 12
+        hitPoints: 120 (16d8 + 48)
+        speed: "30ft., 40ft. in tiger form"
+        stats:
+          str: 17
+          dex: 15
+          con: 16
+          int: 10
+          wis: 13
+          cha: 11
+        tidbits:
+          - name: Skills
+            text: "Perception +5, Stealth +4"
+          - name: Damage Immunities
+            text: "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that aren't Silvered"
+          - name: Senses
+            text: "Darkvision 60ft., Passive Perception 15"
+          - name: Languages
+            text: "Common"
+          - name: Challenge
+            text: "4 (1,100 XP)"
+        features:
+          - name: Shapechanger.
+            description: "The weretiger can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          - name: Keen Hearing and Smell.
+            description: "The weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+          - name: Pounce (Tiger or Hybrid Form Only).
+            description: "If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the weretiger can make one bite attack against it as a bonus action."
+        actions:
+          - name: Multiattack (Humanoid or Hybrid Form Only).
+            description: "In humanoid form, the weretiger makes two scimitar attacks or two longbow attacks. In hybrid form, it can attack like a humanoid or make two claw attacks."
+          - name: Bite (Tiger or Hybrid Form Only).
+            description: "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 8 (1d10 + 3) piercing damage. If the target is a humanoid, it must succeed on a DC 13 Constitution saving throw or be cursed with weretiger lycanthropy."
+          - name: Claw (Tiger or Hybrid Form Only).
+            description: "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8 + 3) slashing damage."
+          - name: Scimitar (Humanoid or Hybrid Form Only).
+            description: "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 6 (1d6 + 3) slashing damage."
+          - name: Longbow (Humanoid or Hybrid Form Only).
+            description: "_Ranged Weapon Attack:_ +4 to hit, range 150/600 ft., one target. _Hit:_ 6 (1d8 + 2) piercing damage."
+  -
+    summary: Disguised couatl
+    location: Port Nyanzaru
+    image: "guides/eku.jpg"
+    description: |
+      Eku is a **couatl** polymorphed into a middle-aged Chultan woman. She is one of the few who knows the location of Omu, although she doesn’t advertise this fact. The couatl is looking for adventurers to help rid the jungle of the evil that infests it. She’ll work only with good-aligned adventurers.
+
+      While in human form, Eku is clothed in light blue robes and carries a walking stick carved in the likeness of a stylized couatl. In this form, Eku stands 5 feet 6 inches tall and weighs 110 pounds. She is on good terms with the aarakocra of Kir Sabal, and she’s made numerous treks to Nangalore to retrieve rare flowers. Eku also knows about the evil gargoyles that guard Omu, though she’s never fought them, and the guardian naga of Orolunga, whose oracular abilities are legendary. If the characters hire her to guide them but aren’t sure where to go, she recommends visiting the guardian naga.
+
+      Eku had great love and respect for the people of Mbala, who were tricked and eaten by a green hag named Nanny Pu’pu. Eku regards the hag as one of the greatest evils in Chult. If the characters travel anywhere near Mbala and Eku is with them, she asks them to help her rid the world of Nanny Pu’pu once and for all.
+    characters:
+      - name: Eku
+        meta: Medium celestial, lawful good
+        armorClass: 19 (Natural Armor)
+        hitPoints: 97 (13d8 + 39)
+        speed: "30 ft., fly 90 ft."
+        stats:
+          str: 16
+          dex: 20
+          con: 17
+          int: 18
+          wis: 20
+          cha: 18
+        tidbits:
+          - name: Saving Throws
+            text: CON +5, WIS +7, CHA +6
+          - name: Damage Resistances
+            text: Radiant
+          - name: Damage Immunities
+            text: "Psychic; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks"
+          - name: Senses
+            text: "Truesight 120 ft., Passive Perception 15"
+          - name: Languages
+            text: "All, Telepathy 120 ft."
+          - name: Challenge
+            text: "4 (1,100 XP)"
+        features:
+          - name: Innate Spellcasting.
+            description: |
+              Innate Spellcasting. The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components:
+
+              At will: _detect evil and good, detect magic, detect thoughts_
+
+              3/day each: _bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield_
+
+              1/day each: _dream, greater restoration, scrying_
+          - name: Magic Weapons.
+            description: "The couatl's weapon attacks are magical."
+          - name: Shielded Mind.
+            description: "The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location."
+        actions:
+          - name: Bite.
+            description: |
+              _Melee Weapon Attack:_ +8 to hit, reach 5 ft., one creature. _Hit:_ 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake.
+          - name: Constrict.
+            description: |
+              _Melee Weapon Attack:_ +6 to hit, reach 10 ft., one Medium or smaller creature. _Hit:_ 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can't constrict another target.
+          - name: Change Shape.
+            description: |
+              The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice).
+
+              In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form.
+  -
+    summary: Incompetent fortune hunters
+    location: Port Nyanzaru
+    image: "guides/faroul-and-gondolo.jpg"
+    description: |
+      Faroul (NG male Calishite human **scout**) and Gondolo (CG male lightfoot halfling **scout** with 13 hit points) are two dandies down on their luck in Port Nyanzaru. Spoiled and pompous, Faroul was shipped off by his exasperated parents to Port Nyanzaru and told to make his fortune there. Bursting with coin and ready for adventure, Faroul brought along his carousing companion, Gondolo. Together, they thought they’d soon be living the high life on distant shores. Within a few months, they’d squandered most of Faroul’s cash at the dinosaur races and were in debt to numerous bookies and several merchant princes. The only thing they have to show for their months of debauchery is a flatulent racing **triceratops** named Zongo. They purchased it for the races, but it was hopelessly slow; now they use Zongo as a pack animal.
+
+      In desperation, Gondolo bought a treasure map from a fever-wracked explorer who needed cash to buy passage back to Baldur’s Gate. Miraculously, the map accurately indicates the location of Needle’s Bones. This hapless pair hope to be hired by adventurers on an equal-shares basis so they can lead the group to what they believe will be an easily claimed dragon’s hoard.
+
+      Faroul is 5 feet 10 inches tall and 175 pounds. He tells great tales of his battle prowess but he uses his shortsword only in emergencies.
+
+      Gondolo is 3 feet 6 inches tall and 80 flaccid pounds. He fancies himself a poet, a pugilist, and a philosopher who’ll make up important-sounding facts when he runs out of actual ones. He has a knack for narrowly escaping the jaws of peril and has the normal halfling’s luck.
+    characters:
+      - name: Faroul/Gondolo
+        meta: Medium humanoid, neutral good (Faroul); Small humanoid, chaotic good (Gondolo)
+        armorClass: 13 (Leather Armor)
+        hitPoints: 16 (Faroul); 13 (Gondolo) (3d8 + 3)
+        speed: "30 ft."
+        stats:
+          str: 11
+          dex: 14
+          con: 12
+          int: 11
+          wis: 13
+          cha: 11
+        tidbits:
+          - name: Skills
+            text: Nature +4, Perception +5, Stealth +6, Survival +5
+          - name: Senses
+            text: "Passive Perception 15"
+          - name: Languages
+            text: "Common (Faroul); Common, Halfling (Gondolo)"
+          - name: Challenge
+            text: "1/2 (100 XP)"
+        features:
+          - name: Keen Hearing and Sight.
+            description: |
+              The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.
+        actions:
+          - name: Multiattack.
+            description: |
+              The scout makes two melee attacks or two ranged attacks.
+          - name: Shortsword.
+            description: |
+              _Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6 + 2) piercing damage.
+          - name: Longbow.
+            description: |
+              _Ranged Weapon Attack:_ +4 to hit, ranged 150/600 ft., one target. _Hit:_ 6 (1d8 + 2) piercing damage.
+      - name: Zongo
+        meta: Huge beast, unaligned
+        armorClass: 13 (Natural Armor)
+        hitPoints: 95 (10d12 + 30)
+        speed: "50 ft."
+        stats:
+          str: 22
+          dex: 9
+          con: 17
+          int: 2
+          wis: 11
+          cha: 5
+        tidbits:
+          - name: Senses
+            text: "Passive Perception 10"
+          - name: Languages
+            text: "--"
+          - name: Challenge
+            text: "5 (1,800 XP)"
+        features:
+          - name: Trampling Charge.
+            description: |
+              If the triceratops moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the triceratops can make one stomp attack against it as a bonus action.
+        actions:
+          - name: Gore.
+            description: |
+              _Melee Weapon Attack:_ +9 to hit, reach 5 ft., one target. _Hit:_ 24 (4d8 + 6) piercing damage.
+          - name: Stomp.
+            description: |
+              _Melee Weapon Attack:_ +9 to hit, reach 5 ft., one prone creature. _Hit:_ 22 (3d10 + 6) bludgeoning damage.
+  -
+    summary: Barmy dwarf dragon slayer
+    location: Port Nyanzaru
+    image: "guides/hew-hackinstone.jpg"
+    description: |
+      Three years ago, Hew was part of a dwarven expedition seeking to reopen Wyrmheart Mine. The expedition encountered Tinder the red dragon. Hew alone escaped, and only after the dragon bit off his left arm. Hew wants to return to the mine and slay the dragon, but he needs a band of stout-hearted adventurers to help him. If the characters hire him as a guide, Hew says he can lead them wherever they want, but he’ll only take them to Wyrmheart Mine.
+    characters:
+      - name: Hew Hackinstone
+        meta: Medium humanoid, chaotic neutral
+        armorClass: 13 (Hide Armor)
+        hitPoints: 67 (9d8 + 27)
+        speed: "30 ft."
+        stats:
+          str: 16
+          dex: 12
+          con: 17
+          int: 9
+          wis: 11
+          cha: 9
+        tidbits:
+          - name: Skills
+            text: Survival +4
+          - name: Damage Resistances
+            text: Poison
+          - name: Senses
+            text: Darkvision 60ft., Passive Perception 10
+          - name: Languages
+            text: "Common, Dwarvish"
+          - name: Challenge
+            text: "2 (450 XP)"
+        features:
+          - name: Dwarven Resilience.
+            description: The dwarf has advantage on saving throws against poison.
+          - name: Reckless.
+            description: |
+              At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
+        actions:
+          - name: Battleaxe.
+            description: |
+              _Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8 + 3) slashing damage. Hew can’t wield the weapon with two hands, since he’s missing his left arm.
+  -
+    meta: Medium humanoid, lawful good
+    summary: Albino dwarf
+    location: Port Nyanzaru
+    image: "guides/musharib.jpg"
+    description: |
+      Musharib (LG male **albino dwarf spirit warrior**; see appendix D) will gladly serve as a guide out of Port Nyanzaru, but he is secretly looking for adventurers of the right skill and fortitude to help him reclaim Hrakhamar — or at least to sneak into its treasury and retrieve Moradin’s Gauntlet, a dwarven relic. If there are any dwarves in the player characters’ party, Musharib locks onto them and appeals to their love of dwarvenkind to aid him in reclaiming his clan’s ancestral forge. In general, he directs his questions and answers to dwarves in the party unless there’s no way around speaking to someone else.
+
+      Musharib is 4 feet 5 inches tall and weighs 140 pounds. He carries a wooden maul named Skullbash. His armor is fashioned from the spatulate bones of dinosaurs, and it’s gashed and scarred by weapons, claws, and teeth.
+    characters:
+      - name: Musharib
+        armorClass: 13 (Hide Armor)
+        hitPoints: 30 (4d8 + 12)
+        speed: "25 ft."
+        stats:
+          str: 13
+          dex: 13
+          con: 17
+          int: 12
+          wis: 14
+          cha: 11
+        tidbits:
+          - name: Skills
+            text: Perception +4, Stealth +3, Survival +4
+          - name: Damage Resistances
+            text: Poison
+          - name: Senses
+            text: Darkvision 60 ft., Passive Perception 14
+          - name: Languages
+            text: Common, Dwarvish
+          - name: Challenge
+            text: Challenge 1 (200 XP)
+        features:
+          - name: Dwarven Resilience.
+            description: The dwarf has advantage on saving throws against poison.
+          - name: Innate Spellcasting.
+            description: |
+              The dwarf’s innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material components:
+
+              1/day each: _hunter's mark, jump, pass without trace, speak with animals, speak with plants_
+        actions:
+          - name: Handaxe.
+            description: |
+              _Melee or Ranged Attack:_ +3 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 4 (1d6 + 1) slashing damage.
+  -
+    summary: Chultan druid
+    location: Fort Beluarian
+    image: "guides/qawasha.jpg"
+    description: |
+      Qawasha (NG male Chultan **druid**) is a member of the Emerald Enclave based in Fort Beluarian. The druid travels with a **vegepygmy** companion named Kupalué, a Chultan word that means “walking weed.” Qawasha often refers to his companion simply as Weed. They communicate with each other using their own unique sign language. See appendix D for vegepygmy statistics.
+
+      Qawasha would like to rid the jungle of its undead menace, so he deliberately leads adventurers through undead-infested regions. As he travels through the jungle, Qawasha calls out the names of unusual flora and fauna around him. The druid also has a knack for camping in places where chwingas (see appendix D) dwell, and he has experience dealing with the elemental spirits.
+
+      If the characters hire Qawasha, he recommends that they also purchase a charter of exploration before leaving Fort Beluarian. Qawasha has witnessed firsthand the Flaming Fist’s mistreatment of adventurers who explore Chult without the requisite paperwork.
+
+      Qawasha stands 6 feet 2 inches tall and weighs 180 pounds. Weed stands 3 feet tall and weighs about 30 pounds dry (50 pounds wet).
+    characters:
+      - name: Qawasha
+        meta: Medium humanoid, neutral good
+        armorClass: 11 (16 With Barkskin)
+        hitPoints: 27 (5d8 + 5)
+        speed: "30 ft."
+        stats:
+          str: 10
+          dex: 12
+          con: 13
+          int: 12
+          wis: 15
+          cha: 11
+        tidbits:
+          - name: Skills
+            text: Medicine +4, Nature +3, Perception +4
+          - name: Senses
+            text: Passive Perception 14
+          - name: Languages
+            text: Druidic, Common, Weedish
+          - name: Challenge
+            text: 2 (450 XP)
+        features:
+          - name: Spellcasting.
+            description: |
+              The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:
+
+              Cantrips (at will): _druidcraft, produce flame, shillelagh_
+
+              1st level (4 slots): _entangle, longstrider, speak with animals, thunderwave_
+
+              2nd level (3 slots): _animal messenger, barkskin_
+        actions:
+          - name: Quarterstaff.
+            description: |
+              _Melee Weapon Attack:_ +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. _Hit:_ 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with shillelagh.
+      - name: Kupalué
+        meta: Small plant, neutral
+        armorClass: 13 (Natural armor)
+        hitPoints: 9 (2d6 + 2)
+        speed: "30 ft."
+        stats:
+          str: 7
+          dex: 14
+          con: 13
+          int: 6
+          wis: 11
+          cha: 7
+        tidbits:
+          - name: Skills
+            text: Perception +2, Stealth +4
+          - name: Damage Resistances
+            text: Lightning, Piercing
+          - name: Senses
+            text: Darkvision 60 ft., Passive Perception 12
+          - name: Languages
+            text: Vegepygmy, Weedish
+          - name: Challenge
+            text: Challenge 1/4 (50 XP)
+        features:
+          - name: Plant Camouflage.
+            description: |
+              The vegepygmy has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.
+          - name: Regeneration.
+            description: |
+              The vegepygmy regains 3 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn’t function at the start of the vegepygmy’s next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn’t regenerate.
+        actions:
+          - name: Claws.
+            description: |
+              _Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6 + 2) slashing damage.
+          - name: Sling.
+            description: |
+              _Ranged Weapon Attack:_ +4 to hit, range 30/120 ft., one target. _Hit:_ 4 (1d4 + 2) bludgeoning damage.
+  -
+    summary: Tabaxi siblings
+    location: Port Nyanzaru
+    image: "guides/river-mist-flask-of-wine.jpg"
+    description: |
+      River Mist and Flask of Wine (CG female and male **tabaxi hunters**; see appendix D) are siblings in league with the Zhentarim. Consequently, they pay no fees or fealty to any merchant prince; they keep their business quiet, meeting potential clients only in Malar’s Throat or seedier houses in Tiryki Anchorage. They refer to one another as River and Flask.
+
+      River is about 5 feet 5 inches and 100 pounds. She wears leather armor and an eye patch. (She lost her right eye in a childhood mishap involving a sling.) River is furtive and uncomfortable in crowds, preferring the jungle where she is truly at home.
+
+      Flask seldom speaks except to agree with River, often repeating the last few words of River’s utterance (with a slight lisp) while nodding in assent. Despite this laconic nature, he enjoys being among people and might even be considered gregarious, for a tabaxi. He is tall and lanky (5 feet 8 inches and 140 pounds).
+
+      River and Flask can guide characters to Firefinger and Dungrunglung. They’ve also heard stories about an old woman in Mbala who can animate the dead in such a way that the zombies retain the abilities and memories they had in life.
+
+      Zhentarim agents in Port Nyanzaru have instructed River and Flask to keep an eye out for Artus Cimber. If they encounter Artus, the tabaxi try to learn as much as they can about him. The next time they return to Port Nyanzaru, the tabaxi report what they’ve seen and learned to their Zhent masters unless they’re incentivized not to.
+    characters:
+      - name: River Mist/Flask of Wine
+        meta: Medium humanoid, chaotic good
+        armorClass: 14 Leather Armor
+        hitPoints: 40 (9d8)
+        speed: "30 ft., climb 20 ft."
+        stats:
+          str: 10
+          dex: 17
+          con: 11
+          int: 13
+          wis: 14
+          cha: 15
+        tidbits:
+          - name: Skills
+            text: Athletics +2, Perception +4, Stealth +5, Survival +6
+          - name: Senses
+            text: Darkvision 60 ft., Passive Perception 14
+          - name: Languages
+            text: Common
+          - name: Challenge
+            text: 1 (200 XP)
+        features:
+          - name: Feline Agility.
+            description: |
+               When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can’t use it again until it moves 0 feet on one of its turns.
+        actions:
+          - name: Multiattack.
+            description: |
+              The tabaxi makes two attacks with its claws, its shortsword, or its shortbow.
+          - name: Claws.
+            description: |
+              _Melee Weapon Attack:_ +2 to hit, reach 5 ft., one target. _Hit:_ 2 (1d4) slashing damage.
+          - name: Shortsword.
+            description: |
+              _Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 6 (1d6 + 3) slashing damage.
+          - name: Shortbow.
+            description: |
+              _Ranged Weapon Attack:_ +5 to hit, range 80/320 ft., one target. _Hit:_ 6 (1d6 +3) piercing damage.
+  -
+    summary: Yuan-ti spy
+    location: Port Nyanzaru
+    image: "guides/salida.jpg"
+    description: |
+      Salida (NE female Chultan **yuan-ti pureblood** with Survival +5) poses as a human guide in Port Nyanzaru, but she really works for Ras Nsi. She keeps him apprised of the activity of anyone who’s heading south in search of Omu. They communicate via _**sending stones**_. Salida keeps her _**sending stone**_ in a pouch and tries to join the player characters’ expedition as a guide, a warrior, or even as a lowly bearer or paddler.
+
+      Salida is 5 feet 4 inches tall and 120 pounds. She is fit and completely looks the part of a seasoned explorer. Her garb covers up the scaly patches of skin that betray her true nature. Salida is skilled at crafting colorful insults and concocting believable lies to cover her true background. Her wit makes her an enjoyable traveling companion — a trait that she leverages to the fullest to join the characters’ expedition.
+    characters:
+      - name: Salida
+        meta: Medium humanoid (yuan-ti), neutral evil
+        armorClass: 11
+        hitPoints: 40 (9d8)
+        speed: "30 ft."
+        stats:
+          str: 11
+          dex: 12
+          con: 11
+          int: 13
+          wis: 12
+          cha: 14
+        tidbits:
+          - name: Skills
+            text: Deception +6, Perception +3, Stealth +3, Survival +7
+          - name: Damage Immunities
+            text: poison
+          - name: Condition Immunities
+            text: poisoned
+          - name: Senses
+            text: Darkvision 60 ft., Passive Perception 13
+          - name: Languages
+            text: Abyssal, Common, Draconic
+          - name: Challenge
+            text: 1 (200 XP)
+        features:
+          - name: Innate Spellcasting.
+            description: |
+              The yuan-ti's spellcasting ability is Charisma (spell save DC 12). The yuan-ti can innately cast the following spells, requiring no material components:
+
+              At will: _animal friendship (snakes only)_
+
+              3/day: _poison spray, suggestion_
+          - name: Magic Resistance.
+            description: |
+              The yuan-ti has advantage on saving throws against spells and other magical effects.
+        actions:
+          - name: Multiattack.
+            description: |
+              The yuan-ti makes two melee attacks.
+          - name: Scimitar.
+            description: |
+              _Melee Weapon Attack:_ +3 to hit, reach 5 ft., one target. _Hit:_ 4 (1d6 + 1) slashing damage.
+          - name: Shortbow.
+            description: |
+              _Ranged Weapon Attack:_ +3 to hit, range 80/320 ft., one target. _Hit:_ 4 (1d6 + 1) piercing damage plus 7 (2d6) poison damage.
+  -
+    summary: Chultan gladiator
+    location: Fort Beluarian
+    image: "guides/shago.jpg"
+    description: |
+      Shago (CG male Chultan **gladiator** with Survival +7) is a Chultan and the only son of Zhanthi, one of Port Nyanzaru’s merchant princes. He works out of Fort Beluarian, and although he presents himself as an independent operator, he’s in league with the Flaming Fist. Shago has led many Flaming Fist expeditions into the jungle to clear out undead, despite having a great fear of being turned into a zombie or ghoul.
+
+      Despite his fears, Shago knows that the undead must be defeated. This is why he works with the Flaming Fist; the merchant princes bemoan the threat from undead but, other than hiring guards to defend Port Nyanzaru, they won’t pay to take effective action against it. His mother believes she’s “recruited” him to keep an eye on the Flaming Fist, but his sympathies are with the mercenaries and he rarely provides her with any secret or useful information.
+
+      Shago is 6 feet 3 inches tall and 220 pounds, with rippling muscles and a friendly smile. His main goal is to impress Liara Portyr enough to earn a rank within the Flaming Fist. While Shago is their guide, characters gain advantage on Charisma checks made to influence members of the Flaming Fist.
+    characters:
+      - name: Shago
+        meta: Medium humanoid, chaotic good
+        armorClass: 16 (Studded Leather, Shield)
+        hitPoints: 112 (15d8 + 45)
+        speed: "30 ft."
+        stats:
+          str: 18
+          dex: 15
+          con: 16
+          int: 10
+          wis: 12
+          cha: 15
+        tidbits:
+          - name: Saving Throws
+            text: STR +7, DEX +5, CON +6
+          - name: Skills
+            text: Athletics +10, Intimidation +5, Survival +7
+          - name: Senses
+            text: Passive Perception 11
+          - name: Languages
+            text: Common
+          - name: Challenge
+            text: 5 (1,800 XP)
+        features:
+          - name: Brave.
+            description: |
+              The gladiator has advantage on saving throws against being frightened.
+          - name: Brute.
+            description: |
+              A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack).
+        actions:
+          - name: Multiattack.
+            description: |
+              The gladiator makes three melee attacks or two ranged attacks.
+          - name: Spear.
+            description: |
+              _Melee or Ranged Weapon Attack:_ +7 to hit, reach 5 ft. and range 20/60 ft., one target. _Hit:_ 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.
+          - name: Shield Bash.
+            description: |
+              _Melee Weapon Attack:_ +7 to hit, reach 5 ft., one creature. _Hit:_ 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.
+        reactions:
+          - name: Parry
+            description: |
+              The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon.
