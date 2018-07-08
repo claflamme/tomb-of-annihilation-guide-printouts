@@ -1,4 +1,4 @@
-[![alt text](src/assets/screenshot.jpg)](https://github.com/claflamme/toa-guide-printouts/blob/master/guides.pdf)
+![screenshot of printout](src/assets/screenshot.jpg)
 
 [View 👀](https://github.com/claflamme/toa-guide-printouts/blob/master/guides.pdf) or
 [Download ⬇️](https://github.com/claflamme/toa-guide-printouts/raw/master/guides.pdf)
