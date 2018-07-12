@@ -1,0 +1,39 @@
+summary: Barmy dwarf dragon slayer
+location: Port Nyanzaru
+image: "guides/hew-hackinstone.jpg"
+description: |
+  Three years ago, Hew was part of a dwarven expedition seeking to reopen Wyrmheart Mine. The expedition encountered Tinder the red dragon. Hew alone escaped, and only after the dragon bit off his left arm. Hew wants to return to the mine and slay the dragon, but he needs a band of stout-hearted adventurers to help him. If the characters hire him as a guide, Hew says he can lead them wherever they want, but he’ll only take them to Wyrmheart Mine.
+characters:
+  - name: Hew Hackinstone
+    meta: Medium humanoid, chaotic neutral
+    armorClass: 13 (Hide Armor)
+    hitPoints: 67 (9d8 + 27)
+    speed: "30 ft."
+    stats:
+      str: 16
+      dex: 12
+      con: 17
+      int: 9
+      wis: 11
+      cha: 9
+    tidbits:
+      - name: Skills
+        text: Survival +4
+      - name: Damage Resistances
+        text: Poison
+      - name: Senses
+        text: Darkvision 60ft., Passive Perception 10
+      - name: Languages
+        text: "Common, Dwarvish"
+      - name: Challenge
+        text: "2 (450 XP)"
+    features:
+      - name: Dwarven Resilience.
+        description: The dwarf has advantage on saving throws against poison.
+      - name: Reckless.
+        description: |
+          At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
+    actions:
+      - name: Battleaxe.
+        description: |
+          _Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8 + 3) slashing damage. Hew can’t wield the weapon with two hands, since he’s missing his left arm.

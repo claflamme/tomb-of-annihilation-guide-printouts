@@ -1,0 +1,77 @@
+summary: Incompetent fortune hunters
+location: Port Nyanzaru
+image: "guides/faroul-and-gondolo.jpg"
+description: |
+  Faroul (NG male Calishite human **scout**) and Gondolo (CG male lightfoot halfling **scout** with 13 hit points) are two dandies down on their luck in Port Nyanzaru. Spoiled and pompous, Faroul was shipped off by his exasperated parents to Port Nyanzaru and told to make his fortune there. Bursting with coin and ready for adventure, Faroul brought along his carousing companion, Gondolo. Together, they thought they’d soon be living the high life on distant shores. Within a few months, they’d squandered most of Faroul’s cash at the dinosaur races and were in debt to numerous bookies and several merchant princes. The only thing they have to show for their months of debauchery is a flatulent racing **triceratops** named Zongo. They purchased it for the races, but it was hopelessly slow; now they use Zongo as a pack animal.
+
+  In desperation, Gondolo bought a treasure map from a fever-wracked explorer who needed cash to buy passage back to Baldur’s Gate. Miraculously, the map accurately indicates the location of Needle’s Bones. This hapless pair hope to be hired by adventurers on an equal-shares basis so they can lead the group to what they believe will be an easily claimed dragon’s hoard.
+
+  Faroul is 5 feet 10 inches tall and 175 pounds. He tells great tales of his battle prowess but he uses his shortsword only in emergencies.
+
+  Gondolo is 3 feet 6 inches tall and 80 flaccid pounds. He fancies himself a poet, a pugilist, and a philosopher who’ll make up important-sounding facts when he runs out of actual ones. He has a knack for narrowly escaping the jaws of peril and has the normal halfling’s luck.
+characters:
+  - name: Faroul/Gondolo
+    meta: Medium humanoid, neutral good (Faroul); Small humanoid, chaotic good (Gondolo)
+    armorClass: 13 (Leather Armor)
+    hitPoints: 16 (Faroul); 13 (Gondolo) (3d8 + 3)
+    speed: "30 ft."
+    stats:
+      str: 11
+      dex: 14
+      con: 12
+      int: 11
+      wis: 13
+      cha: 11
+    tidbits:
+      - name: Skills
+        text: Nature +4, Perception +5, Stealth +6, Survival +5
+      - name: Senses
+        text: "Passive Perception 15"
+      - name: Languages
+        text: "Common (Faroul); Common, Halfling (Gondolo)"
+      - name: Challenge
+        text: "1/2 (100 XP)"
+    features:
+      - name: Keen Hearing and Sight.
+        description: |
+          The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.
+    actions:
+      - name: Multiattack.
+        description: |
+          The scout makes two melee attacks or two ranged attacks.
+      - name: Shortsword.
+        description: |
+          _Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6 + 2) piercing damage.
+      - name: Longbow.
+        description: |
+          _Ranged Weapon Attack:_ +4 to hit, ranged 150/600 ft., one target. _Hit:_ 6 (1d8 + 2) piercing damage.
+  - name: Zongo
+    meta: Huge beast, unaligned
+    armorClass: 13 (Natural Armor)
+    hitPoints: 95 (10d12 + 30)
+    speed: "50 ft."
+    stats:
+      str: 22
+      dex: 9
+      con: 17
+      int: 2
+      wis: 11
+      cha: 5
+    tidbits:
+      - name: Senses
+        text: "Passive Perception 10"
+      - name: Languages
+        text: "--"
+      - name: Challenge
+        text: "5 (1,800 XP)"
+    features:
+      - name: Trampling Charge.
+        description: |
+          If the triceratops moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the triceratops can make one stomp attack against it as a bonus action.
+    actions:
+      - name: Gore.
+        description: |
+          _Melee Weapon Attack:_ +9 to hit, reach 5 ft., one target. _Hit:_ 24 (4d8 + 6) piercing damage.
+      - name: Stomp.
+        description: |
+          _Melee Weapon Attack:_ +9 to hit, reach 5 ft., one prone creature. _Hit:_ 22 (3d10 + 6) bludgeoning damage.

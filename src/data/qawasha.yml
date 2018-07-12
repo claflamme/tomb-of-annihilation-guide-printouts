@@ -1,0 +1,84 @@
+summary: Chultan druid
+location: Fort Beluarian
+image: "guides/qawasha.jpg"
+description: |
+  Qawasha (NG male Chultan **druid**) is a member of the Emerald Enclave based in Fort Beluarian. The druid travels with a **vegepygmy** companion named Kupalué, a Chultan word that means “walking weed.” Qawasha often refers to his companion simply as Weed. They communicate with each other using their own unique sign language. See appendix D for vegepygmy statistics.
+
+  Qawasha would like to rid the jungle of its undead menace, so he deliberately leads adventurers through undead-infested regions. As he travels through the jungle, Qawasha calls out the names of unusual flora and fauna around him. The druid also has a knack for camping in places where chwingas (see appendix D) dwell, and he has experience dealing with the elemental spirits.
+
+  If the characters hire Qawasha, he recommends that they also purchase a charter of exploration before leaving Fort Beluarian. Qawasha has witnessed firsthand the Flaming Fist’s mistreatment of adventurers who explore Chult without the requisite paperwork.
+
+  Qawasha stands 6 feet 2 inches tall and weighs 180 pounds. Weed stands 3 feet tall and weighs about 30 pounds dry (50 pounds wet).
+characters:
+  - name: Qawasha
+    meta: Medium humanoid, neutral good
+    armorClass: 11 (16 With Barkskin)
+    hitPoints: 27 (5d8 + 5)
+    speed: "30 ft."
+    stats:
+      str: 10
+      dex: 12
+      con: 13
+      int: 12
+      wis: 15
+      cha: 11
+    tidbits:
+      - name: Skills
+        text: Medicine +4, Nature +3, Perception +4
+      - name: Senses
+        text: Passive Perception 14
+      - name: Languages
+        text: Druidic, Common, Weedish
+      - name: Challenge
+        text: 2 (450 XP)
+    features:
+      - name: Spellcasting.
+        description: |
+          The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:
+
+          Cantrips (at will): _druidcraft, produce flame, shillelagh_
+
+          1st level (4 slots): _entangle, longstrider, speak with animals, thunderwave_
+
+          2nd level (3 slots): _animal messenger, barkskin_
+    actions:
+      - name: Quarterstaff.
+        description: |
+          _Melee Weapon Attack:_ +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. _Hit:_ 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with shillelagh.
+  - name: Kupalué
+    meta: Small plant, neutral
+    armorClass: 13 (Natural armor)
+    hitPoints: 9 (2d6 + 2)
+    speed: "30 ft."
+    stats:
+      str: 7
+      dex: 14
+      con: 13
+      int: 6
+      wis: 11
+      cha: 7
+    tidbits:
+      - name: Skills
+        text: Perception +2, Stealth +4
+      - name: Damage Resistances
+        text: Lightning, Piercing
+      - name: Senses
+        text: Darkvision 60 ft., Passive Perception 12
+      - name: Languages
+        text: Vegepygmy, Weedish
+      - name: Challenge
+        text: Challenge 1/4 (50 XP)
+    features:
+      - name: Plant Camouflage.
+        description: |
+          The vegepygmy has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.
+      - name: Regeneration.
+        description: |
+          The vegepygmy regains 3 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn’t function at the start of the vegepygmy’s next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn’t regenerate.
+    actions:
+      - name: Claws.
+        description: |
+          _Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6 + 2) slashing damage.
+      - name: Sling.
+        description: |
+          _Ranged Weapon Attack:_ +4 to hit, range 30/120 ft., one target. _Hit:_ 4 (1d4 + 2) bludgeoning damage.

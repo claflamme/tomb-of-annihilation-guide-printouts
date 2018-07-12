@@ -1,0 +1,52 @@
+summary: Tabaxi siblings
+location: Port Nyanzaru
+image: "guides/river-mist-flask-of-wine.jpg"
+description: |
+  River Mist and Flask of Wine (CG female and male **tabaxi hunters**; see appendix D) are siblings in league with the Zhentarim. Consequently, they pay no fees or fealty to any merchant prince; they keep their business quiet, meeting potential clients only in Malar’s Throat or seedier houses in Tiryki Anchorage. They refer to one another as River and Flask.
+
+  River is about 5 feet 5 inches and 100 pounds. She wears leather armor and an eye patch. (She lost her right eye in a childhood mishap involving a sling.) River is furtive and uncomfortable in crowds, preferring the jungle where she is truly at home.
+
+  Flask seldom speaks except to agree with River, often repeating the last few words of River’s utterance (with a slight lisp) while nodding in assent. Despite this laconic nature, he enjoys being among people and might even be considered gregarious, for a tabaxi. He is tall and lanky (5 feet 8 inches and 140 pounds).
+
+  River and Flask can guide characters to Firefinger and Dungrunglung. They’ve also heard stories about an old woman in Mbala who can animate the dead in such a way that the zombies retain the abilities and memories they had in life.
+
+  Zhentarim agents in Port Nyanzaru have instructed River and Flask to keep an eye out for Artus Cimber. If they encounter Artus, the tabaxi try to learn as much as they can about him. The next time they return to Port Nyanzaru, the tabaxi report what they’ve seen and learned to their Zhent masters unless they’re incentivized not to.
+characters:
+  - name: River Mist/Flask of Wine
+    meta: Medium humanoid, chaotic good
+    armorClass: 14 Leather Armor
+    hitPoints: 40 (9d8)
+    speed: "30 ft., climb 20 ft."
+    stats:
+      str: 10
+      dex: 17
+      con: 11
+      int: 13
+      wis: 14
+      cha: 15
+    tidbits:
+      - name: Skills
+        text: Athletics +2, Perception +4, Stealth +5, Survival +6
+      - name: Senses
+        text: Darkvision 60 ft., Passive Perception 14
+      - name: Languages
+        text: Common
+      - name: Challenge
+        text: 1 (200 XP)
+    features:
+      - name: Feline Agility.
+        description: |
+           When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can’t use it again until it moves 0 feet on one of its turns.
+    actions:
+      - name: Multiattack.
+        description: |
+          The tabaxi makes two attacks with its claws, its shortsword, or its shortbow.
+      - name: Claws.
+        description: |
+          _Melee Weapon Attack:_ +2 to hit, reach 5 ft., one target. _Hit:_ 2 (1d4) slashing damage.
+      - name: Shortsword.
+        description: |
+          _Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 6 (1d6 + 3) slashing damage.
+      - name: Shortbow.
+        description: |
+          _Ranged Weapon Attack:_ +5 to hit, range 80/320 ft., one target. _Hit:_ 6 (1d6 +3) piercing damage.

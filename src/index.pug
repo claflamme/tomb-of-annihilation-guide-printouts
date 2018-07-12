@@ -3,7 +3,7 @@ mixin renderFeature(name, description)
     - const label = `<strong><em class="stat-block-label">${ name }</em></strong>`
     != marked(label + description)
 
-each guide in guides.guidesList
+each guide in guides
   .page
     .stat-block.pull-left
       each character in guide.characters

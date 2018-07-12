@@ -1,0 +1,54 @@
+summary: Yuan-ti spy
+location: Port Nyanzaru
+image: "guides/salida.jpg"
+description: |
+  Salida (NE female Chultan **yuan-ti pureblood** with Survival +5) poses as a human guide in Port Nyanzaru, but she really works for Ras Nsi. She keeps him apprised of the activity of anyone who’s heading south in search of Omu. They communicate via _**sending stones**_. Salida keeps her _**sending stone**_ in a pouch and tries to join the player characters’ expedition as a guide, a warrior, or even as a lowly bearer or paddler.
+
+  Salida is 5 feet 4 inches tall and 120 pounds. She is fit and completely looks the part of a seasoned explorer. Her garb covers up the scaly patches of skin that betray her true nature. Salida is skilled at crafting colorful insults and concocting believable lies to cover her true background. Her wit makes her an enjoyable traveling companion — a trait that she leverages to the fullest to join the characters’ expedition.
+characters:
+  - name: Salida
+    meta: Medium humanoid (yuan-ti), neutral evil
+    armorClass: 11
+    hitPoints: 40 (9d8)
+    speed: "30 ft."
+    stats:
+      str: 11
+      dex: 12
+      con: 11
+      int: 13
+      wis: 12
+      cha: 14
+    tidbits:
+      - name: Skills
+        text: Deception +6, Perception +3, Stealth +3, Survival +7
+      - name: Damage Immunities
+        text: poison
+      - name: Condition Immunities
+        text: poisoned
+      - name: Senses
+        text: Darkvision 60 ft., Passive Perception 13
+      - name: Languages
+        text: Abyssal, Common, Draconic
+      - name: Challenge
+        text: 1 (200 XP)
+    features:
+      - name: Innate Spellcasting.
+        description: |
+          The yuan-ti's spellcasting ability is Charisma (spell save DC 12). The yuan-ti can innately cast the following spells, requiring no material components:
+
+          At will: _animal friendship (snakes only)_
+
+          3/day: _poison spray, suggestion_
+      - name: Magic Resistance.
+        description: |
+          The yuan-ti has advantage on saving throws against spells and other magical effects.
+    actions:
+      - name: Multiattack.
+        description: |
+          The yuan-ti makes two melee attacks.
+      - name: Scimitar.
+        description: |
+          _Melee Weapon Attack:_ +3 to hit, reach 5 ft., one target. _Hit:_ 4 (1d6 + 1) slashing damage.
+      - name: Shortbow.
+        description: |
+          _Ranged Weapon Attack:_ +3 to hit, range 80/320 ft., one target. _Hit:_ 4 (1d6 + 1) piercing damage plus 7 (2d6) poison damage.

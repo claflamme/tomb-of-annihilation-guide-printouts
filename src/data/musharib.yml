@@ -1,0 +1,43 @@
+meta: Medium humanoid, lawful good
+summary: Albino dwarf
+location: Port Nyanzaru
+image: "guides/musharib.jpg"
+description: |
+  Musharib (LG male **albino dwarf spirit warrior**; see appendix D) will gladly serve as a guide out of Port Nyanzaru, but he is secretly looking for adventurers of the right skill and fortitude to help him reclaim Hrakhamar — or at least to sneak into its treasury and retrieve Moradin’s Gauntlet, a dwarven relic. If there are any dwarves in the player characters’ party, Musharib locks onto them and appeals to their love of dwarvenkind to aid him in reclaiming his clan’s ancestral forge. In general, he directs his questions and answers to dwarves in the party unless there’s no way around speaking to someone else.
+
+  Musharib is 4 feet 5 inches tall and weighs 140 pounds. He carries a wooden maul named Skullbash. His armor is fashioned from the spatulate bones of dinosaurs, and it’s gashed and scarred by weapons, claws, and teeth.
+characters:
+  - name: Musharib
+    armorClass: 13 (Hide Armor)
+    hitPoints: 30 (4d8 + 12)
+    speed: "25 ft."
+    stats:
+      str: 13
+      dex: 13
+      con: 17
+      int: 12
+      wis: 14
+      cha: 11
+    tidbits:
+      - name: Skills
+        text: Perception +4, Stealth +3, Survival +4
+      - name: Damage Resistances
+        text: Poison
+      - name: Senses
+        text: Darkvision 60 ft., Passive Perception 14
+      - name: Languages
+        text: Common, Dwarvish
+      - name: Challenge
+        text: Challenge 1 (200 XP)
+    features:
+      - name: Dwarven Resilience.
+        description: The dwarf has advantage on saving throws against poison.
+      - name: Innate Spellcasting.
+        description: |
+          The dwarf’s innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material components:
+
+          1/day each: _hunter's mark, jump, pass without trace, speak with animals, speak with plants_
+    actions:
+      - name: Handaxe.
+        description: |
+          _Melee or Ranged Attack:_ +3 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 4 (1d6 + 1) slashing damage.

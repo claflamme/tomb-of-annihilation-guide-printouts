@@ -1,0 +1,51 @@
+summary: Weretiger
+location: Port Nyanzaru
+image: "guides/azaka-stormfang.jpg"
+description: |
+  Azaka (NG female Chultan human **weretiger**) works out of Port Nyanzaru. She conceals her lycanthropy from the characters for as long as possible and will guide adventurers for free if they agree to help her retrieve an item that was stolen by the pterafolk of Firefinger. If questioned about the stolen item, Azaka responds only that it’s a family heirloom: a wooden mask carved to resemble a tiger’s face. It is actually a _**mask of the beast**_ (see appendix C).
+
+  Azaka has wandered far and wide through the jungle in tiger form. She is acquainted with Saja N’baza, the powerful and wise guardian naga of Orolunga, and gladly leads characters to the naga if they’re looking for guidance.
+
+  Azaka stands 6 feet tall and weighs about 150 pounds. She will not willingly spread her lycanthropic curse. She is also afraid of heights and will not willingly put herself in a situation in which she’s in danger of falling more than 60 feet. Azaka’s damage immunities do not protect her against damage from falling.
+characters:
+  - name: Azaka Stormfang
+    meta: Medium humanoid, neutral good
+    armorClass: 12
+    hitPoints: 120 (16d8 + 48)
+    speed: "30ft., 40ft. in tiger form"
+    stats:
+      str: 17
+      dex: 15
+      con: 16
+      int: 10
+      wis: 13
+      cha: 11
+    tidbits:
+      - name: Skills
+        text: "Perception +5, Stealth +4"
+      - name: Damage Immunities
+        text: "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that aren't Silvered"
+      - name: Senses
+        text: "Darkvision 60ft., Passive Perception 15"
+      - name: Languages
+        text: "Common"
+      - name: Challenge
+        text: "4 (1,100 XP)"
+    features:
+      - name: Shapechanger.
+        description: "The weretiger can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      - name: Keen Hearing and Smell.
+        description: "The weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      - name: Pounce (Tiger or Hybrid Form Only).
+        description: "If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the weretiger can make one bite attack against it as a bonus action."
+    actions:
+      - name: Multiattack (Humanoid or Hybrid Form Only).
+        description: "In humanoid form, the weretiger makes two scimitar attacks or two longbow attacks. In hybrid form, it can attack like a humanoid or make two claw attacks."
+      - name: Bite (Tiger or Hybrid Form Only).
+        description: "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 8 (1d10 + 3) piercing damage. If the target is a humanoid, it must succeed on a DC 13 Constitution saving throw or be cursed with weretiger lycanthropy."
+      - name: Claw (Tiger or Hybrid Form Only).
+        description: "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8 + 3) slashing damage."
+      - name: Scimitar (Humanoid or Hybrid Form Only).
+        description: "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 6 (1d6 + 3) slashing damage."
+      - name: Longbow (Humanoid or Hybrid Form Only).
+        description: "_Ranged Weapon Attack:_ +4 to hit, range 150/600 ft., one target. _Hit:_ 6 (1d8 + 2) piercing damage."

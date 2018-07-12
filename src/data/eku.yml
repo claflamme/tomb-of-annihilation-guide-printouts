@@ -1,0 +1,61 @@
+summary: Disguised couatl
+location: Port Nyanzaru
+image: "guides/eku.jpg"
+description: |
+  Eku is a **couatl** polymorphed into a middle-aged Chultan woman. She is one of the few who knows the location of Omu, although she doesn’t advertise this fact. The couatl is looking for adventurers to help rid the jungle of the evil that infests it. She’ll work only with good-aligned adventurers.
+
+  While in human form, Eku is clothed in light blue robes and carries a walking stick carved in the likeness of a stylized couatl. In this form, Eku stands 5 feet 6 inches tall and weighs 110 pounds. She is on good terms with the aarakocra of Kir Sabal, and she’s made numerous treks to Nangalore to retrieve rare flowers. Eku also knows about the evil gargoyles that guard Omu, though she’s never fought them, and the guardian naga of Orolunga, whose oracular abilities are legendary. If the characters hire her to guide them but aren’t sure where to go, she recommends visiting the guardian naga.
+
+  Eku had great love and respect for the people of Mbala, who were tricked and eaten by a green hag named Nanny Pu’pu. Eku regards the hag as one of the greatest evils in Chult. If the characters travel anywhere near Mbala and Eku is with them, she asks them to help her rid the world of Nanny Pu’pu once and for all.
+characters:
+  - name: Eku
+    meta: Medium celestial, lawful good
+    armorClass: 19 (Natural Armor)
+    hitPoints: 97 (13d8 + 39)
+    speed: "30 ft., fly 90 ft."
+    stats:
+      str: 16
+      dex: 20
+      con: 17
+      int: 18
+      wis: 20
+      cha: 18
+    tidbits:
+      - name: Saving Throws
+        text: CON +5, WIS +7, CHA +6
+      - name: Damage Resistances
+        text: Radiant
+      - name: Damage Immunities
+        text: "Psychic; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks"
+      - name: Senses
+        text: "Truesight 120 ft., Passive Perception 15"
+      - name: Languages
+        text: "All, Telepathy 120 ft."
+      - name: Challenge
+        text: "4 (1,100 XP)"
+    features:
+      - name: Innate Spellcasting.
+        description: |
+          Innate Spellcasting. The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components:
+
+          At will: _detect evil and good, detect magic, detect thoughts_
+
+          3/day each: _bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield_
+
+          1/day each: _dream, greater restoration, scrying_
+      - name: Magic Weapons.
+        description: "The couatl's weapon attacks are magical."
+      - name: Shielded Mind.
+        description: "The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location."
+    actions:
+      - name: Bite.
+        description: |
+          _Melee Weapon Attack:_ +8 to hit, reach 5 ft., one creature. _Hit:_ 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake.
+      - name: Constrict.
+        description: |
+          _Melee Weapon Attack:_ +6 to hit, reach 10 ft., one Medium or smaller creature. _Hit:_ 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can't constrict another target.
+      - name: Change Shape.
+        description: |
+          The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice).
+
+          In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form.

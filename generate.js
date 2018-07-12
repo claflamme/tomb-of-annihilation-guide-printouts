@@ -4,7 +4,9 @@ const pug = require('pug');
 const yaml = require('js-yaml');
 const marked = require('marked');
 
-const guides = yaml.safeLoad(fs.readFileSync('./src/data/guides.yml', 'utf8'));
+const guides = fs.readdirSync('./src/data').map(file => {
+  return yaml.safeLoad(fs.readFileSync(`./src/data/${ file }`, 'utf8'));
+});
 
 (async () => {
   const browser = await puppeteer.launch({
