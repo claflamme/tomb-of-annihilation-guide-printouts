@@ -1,13 +1,15 @@
-meta: Medium humanoid, lawful good
 summary: Albino dwarf
 location: Port Nyanzaru
 image: "guides/musharib.jpg"
+tags:
+  - guide
 description: |
   Musharib (LG male **albino dwarf spirit warrior**; see appendix D) will gladly serve as a guide out of Port Nyanzaru, but he is secretly looking for adventurers of the right skill and fortitude to help him reclaim Hrakhamar — or at least to sneak into its treasury and retrieve Moradin’s Gauntlet, a dwarven relic. If there are any dwarves in the player characters’ party, Musharib locks onto them and appeals to their love of dwarvenkind to aid him in reclaiming his clan’s ancestral forge. In general, he directs his questions and answers to dwarves in the party unless there’s no way around speaking to someone else.
 
   Musharib is 4 feet 5 inches tall and weighs 140 pounds. He carries a wooden maul named Skullbash. His armor is fashioned from the spatulate bones of dinosaurs, and it’s gashed and scarred by weapons, claws, and teeth.
 characters:
   - name: Musharib
+    meta: Medium humanoid, lawful good
     armorClass: 13 (Hide Armor)
     hitPoints: 30 (4d8 + 12)
     speed: "25 ft."
