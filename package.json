@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run build && chokidar src/**/*.* -c \"npm run build",
+    "dev": "npm run build && chokidar src/**/*.* -c \"npm run build\"",
     "build": "node generate.js"
   },
   "author": "",
